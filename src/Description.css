@@ -1,0 +1,45 @@
+.description {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.text-box {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+}
+
+.text-box h2 {
+    font-weight: lighter;
+    text-align: left;
+}
+
+.team-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    padding: 1em;
+}
+
+.image-box {
+    text-align: center;
+}
+
+.flexCon {
+    display: inline-flex;
+    margin: auto;
+    width: 70%;
+    padding: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.team-photos img {
+    border-radius: 50%;
+}
+
+.photo p {
+    text-align: center;
+}
