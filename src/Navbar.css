@@ -29,6 +29,7 @@
   .topnav a {
     display: inline-block;
     color: white;
+    font-weight: bold;
     text-align: center;
     padding: 35px 45px;
     text-decoration: none;
@@ -46,7 +47,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0087ca;
+    background-color: #c3b5d5;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -57,7 +58,7 @@
   }
   
   .topnav a.active {
-    background-color: #edbbb4;
+    background-color: #c3b5d5;
     text-decoration: underline;
     font-weight: bold;
   }

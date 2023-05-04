@@ -1,35 +1,60 @@
 import './Description.css'
-import Button from '@material-ui/core/Button';
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 
 function Description() {
     return(
+        <div>
+        <div className="topnav">
+            <div className="mid-nav">
+                <img src={require("./imgs/logo.png")} width="100" height="100" />
+            </div>
+            <div className="left-nav">
+                <li><a href='#project-info-section'>Project Info</a></li>
+                <li><a href='#solution-section'>Our Solution</a></li>
+                <li><a href="#team-section">Team</a></li>
+            </div>
+          
+        </div>
+
         <div className="description">
             <div className='flexCon'>
             <div className="text-box">
 
                 <h1>UW Global Impact Tracker</h1>
-                <h2>A networking tool and interactive Tableau dashboard that utilizes up-to-date 
+                <h2>A networking tool and an interactive Tableau dashboard that utilizes up-to-date 
                 co-authored publication data obtained from the openAlex API to showcase UW faculty's 
                 scholarship and collaborations across the world.</h2>
             </div>
 
+            <div className="text-box">
             <div className="image-box">
-                <img src={require("./imgs/dashboard.png")} alt="description-img" 
-                width="300" height="200"/>
-                <Button variant="contained" color="primary">
-                </Button>
+            <img src={require("./imgs/dashboard.png")} alt="description-img" 
+                width="300" height="200" onClick={() => {
+                    window.open("https://www.washington.edu/global/publications/")
+                }}/>
+            
+                <div>
+                <Button className="button" onClick={() => {
+                        window.open("https://jamesjwkim.github.io/rosetta-rough/")
+                    }}>Learn more</Button>
+                </div>
+
+            </div>
             </div>
             </div>
 
-            <div className="text-box">
+            <div className="text-box" id="project-info-section">
                 <h1>Project Overview</h1>
-                <p>The UW Office of Global Affairs (OGA) relies on the Global Publications Dashboard
+                <p>The UW Office of Global Affairs (OGA) relies on the &nbsp;
+                <a href="https://www.washington.edu/global/publications/">Global Publications Dashboard</a>&nbsp;
                      to showcase UW faculty publications and co-authorships. 
                      While this tool is important for demonstrating the influence of UW faculty 
                      and alumni on academic publications worldwide, its user retention has decreased 
                      since the data source became outdated in 2019. Our project aims to update the dashboard 
-                     with current data from the OpenAlex API and enhance the website's functionality 
+                     with current data from the <a href="https://openalex.org/">OpenAlex</a> API and enhance the website's functionality 
                      with user-centered features.
                 </p>
                 
@@ -56,9 +81,9 @@ function Description() {
                 </p>
             </div>
 
-            <div className="text-box">
+            <div className="text-box" id="solution-section">
                 <h1>Our Solution</h1>
-                    <p><b>Refreshing Data</b></p>
+                    <p><b>Refreshed Data Dashboard</b></p>
                     <p>Since Microsoft Academic Graph stopped providing services, 
                         OGA decided to switch to OpenAlex as a new data source. We wrote 
                         a Python script to call on OpenAlex API and extracted 2M rows of 
@@ -84,7 +109,7 @@ function Description() {
 
             </div>
 
-            <div className="text-box">
+            <div className="text-box" id="team-section">
                 <h1>Meet the Team</h1>
                 <div className='team-photos'>
                     <div className='photo'>
@@ -118,6 +143,7 @@ function Description() {
                     Sudha Sharma at ssudha@uw.edu.
                 </p>
             </div>
+        </div>
         </div>
     )
 }

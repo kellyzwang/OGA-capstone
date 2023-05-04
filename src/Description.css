@@ -3,10 +3,25 @@
     margin-bottom: 100px;
 }
 
+.button {
+  background-color: #4b2e83;
+  border-color: #4b2e83;
+  padding: 12px 20px;
+  border-radius: 0.8em;
+  font-weight: bold;
+  margin: 3em;
+  color: white;
+}
+
+.button:hover {
+    background-color: #c3b5d5; 
+    color: #4b2e83;
+  }
+
 .text-box {
-    margin: auto;
     width: 70%;
-    padding: 30px;
+    padding-top: 3em;
+    margin: 0 auto;
 }
 
 .text-box h2 {
@@ -25,11 +40,12 @@
 
 .image-box {
     text-align: center;
+    margin-top: 3em;
 }
 
 .flexCon {
     display: inline-flex;
-    margin: auto;
+    margin: 0 auto;
     width: 70%;
     padding: 170px;
     padding-top: 20px;

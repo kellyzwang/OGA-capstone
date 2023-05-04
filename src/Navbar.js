@@ -10,7 +10,7 @@ function Navbar() {
             <div className="left-nav">
                 <li><Link to='/'>Project Info</Link></li>
                 <li><Link to='/'>Our Solution</Link></li>
-                <li><Link to='/'>Team</Link></li>
+                <li><Link to="#team-section">Team</Link></li>
             </div>
           
         </div>

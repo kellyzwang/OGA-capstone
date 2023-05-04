@@ -6,7 +6,6 @@ import Description from './Description.js'
 export function Home() {
     return (
         <div>
-            <Navbar />
             <Description />
             <Footer />
         </div>
