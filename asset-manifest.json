@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/oga-capstone/static/css/main.4bd9f4d0.css",
+    "main.js": "/oga-capstone/static/js/main.ba787167.js",
+    "static/media/dashboard.png": "/oga-capstone/static/media/dashboard.0300d7d81f091551820f.png",
+    "static/media/kelly.png": "/oga-capstone/static/media/kelly.9aba3438e71d1103b0f9.png",
+    "static/media/lucy.png": "/oga-capstone/static/media/lucy.d11d8850ea44f341f73a.png",
+    "static/media/vivian.png": "/oga-capstone/static/media/vivian.7f873cec3f0e2bcd9136.png",
+    "static/media/james.png": "/oga-capstone/static/media/james.fe044a820ab3ccb56ec4.png",
+    "static/media/jiali.png": "/oga-capstone/static/media/jiali.3de92c65ed0385154da7.png",
+    "static/media/DescriptionImg.png": "/oga-capstone/static/media/DescriptionImg.0d2e7ddf08b4b9acc306.png",
+    "index.html": "/oga-capstone/index.html",
+    "main.4bd9f4d0.css.map": "/oga-capstone/static/css/main.4bd9f4d0.css.map",
+    "main.ba787167.js.map": "/oga-capstone/static/js/main.ba787167.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd9f4d0.css",
+    "static/js/main.ba787167.js"
+  ]
+}
